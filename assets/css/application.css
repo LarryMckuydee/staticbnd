@@ -4,4 +4,55 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  font-family: "Gotham", Arial, sans-serif;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/assets/fonts/Gotham_Bold.otf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/assets/fonts/Gotham_Medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("/assets/fonts/Gotham_Light.otf") format("opentype");
+}
+
+.title {
+  font-family: "Gotham", Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.subtitle {
+  font-family: "Gotham", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 40px;
+}
+
+#logo {
+  width: 50%;
+  margin: 13% 0px;
+}
+
+#emailInput {
+  text-align: center;
+}
+
+.button {
+  font-weight: bold;
+  background-color: #632F64;
+}
+
+.inner-container {
+  margin-top: 25%;
 }

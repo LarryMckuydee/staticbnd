@@ -1,20 +1,35 @@
 <html>
 <head>
   <script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/js/foundation.min.js"></script>
   <link rel="stylesheet" href="assets/css/application.css">
 </head>
 <body>
   <div class="row">
-    <div class="small-6 small-centered columns text-center">
-      <h1>HELLO WORLD</h1>
+    <div class="small-8 small-centered columns text-center">
+      <div class="inner-container">
+       <img id="logo" src="assets/img/logo.svg"/>
+      <h2 class="title">UNDER CONSTRUCTION</h2>
+      <p class="subtitle">Something awesome is coming your way soon.<br/>
+      Stay tuned for more.</p>
       <form id="subscribeForm" action="mailto:larry.mckuydee@gmail.com" method="post">
-        <input id="emailInput" type="text" name="email">
-        <input type="submit">
+      <div class="row">
+      <div class="small-10 small-offset-1">
+	<div class="row collapse postfix-radius">
+	  <div class="small-10 columns">
+            <input id="emailInput" type="text" name="email" placeholder="Enter your email to get notified">
+	  </div>
+	  <div class="small-2 columns">
+            <input class="button postfix" type="submit" value="SUBMIT">
+	  </div>
+	</div>
+      </div>
+      </div>
       </form>
-      <p id="inputFeedback"></p>
+      <p class="subtitle" id="inputFeedback"></p>
       <iframe src="#" id="no-target" name="no-target" style="visibility:hidden"></iframe>
+      </div>
     </div>
   </div>
   <script>
