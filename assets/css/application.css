@@ -1,5 +1,5 @@
 body {
-  background: url("/assets/img/background.jpg") no-repeat center center fixed;
+  background: url("../../assets/img/background.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -10,19 +10,19 @@ body {
 
 @font-face {
   font-family: "Gotham";
-  src: url("/assets/fonts/Gotham_Bold.otf") format("opentype");
+  src: url("../../assets/fonts/Gotham_Bold.otf") format("opentype");
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Gotham";
-  src: url("/assets/fonts/Gotham_Medium.otf") format("opentype");
+  src: url("../../assets/fonts/Gotham_Medium.otf") format("opentype");
   font-weight: 500;
 }
 
 @font-face {
   font-family: "Gotham";
-  src: url("/assets/fonts/Gotham_Light.otf") format("opentype");
+  src: url("../../assets/fonts/Gotham_Light.otf") format("opentype");
 }
 
 .title {
